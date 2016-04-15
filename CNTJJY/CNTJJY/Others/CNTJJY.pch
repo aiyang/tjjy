@@ -1,0 +1,85 @@
+//
+//  CNTJJY.pch
+//  CNTJJY
+//
+//  Created by totrade on 16/1/14.
+//  Copyright © 2016年 CNTJJY. All rights reserved.
+//
+
+#ifndef CNTJJY_pch
+#define CNTJJY_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif /* CNTJJY_pch */
+
+
+#define MAINSCREEN_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define MAINSCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+////网关
+#define HT_WANGGUAN @"http://103.25.42.173:802/"
+//交易所是"齐鲁商品"有一个单独的接口
+#define QL_WANGGUAN @"http://103.25.42.173:805/"
+//发现banner
+#define DISCOVER_BANNER @"http://www.cntjjy.com/mobile/slideshow/ios.xml"
+
+//汇通数据接口
+//某几个商品的即时数据//some instant(即时)data
+//someProductInstantData
+// http://103.25.42.173:802/SomeSymbols.aspx?count=3&s1=USD&s2=GBPUSD&s3=ZAUUSD
+//某个商品即时数据//single instant(即时)data
+//singleProductInstantData
+//http://103.25.42.173:802/ExchangeSymbol.aspx?symbolCode=USD&exchCode=mt4
+//某个交易所所有商品即时数据singleBourse(交易所)AllProductInstantData
+//singleBourseAllProductInstantData
+//http://103.25.42.173:802/ExchangeSymbol.aspx?exchCode=mt4
+//某个商品历史数据singleProductHistoryData
+//singleProductHistoryData
+//http://103.25.42.173:802/History.aspx?symbolCode=USD&top=100&type=min1
+
+//齐鲁数据接口
+//某几个商品的即时数据//
+//http://103.25.42.173:805/SomeSymbols.aspx?count=3&s1=USD&s2=GBPUSD&s3=ZAUUSD
+//某个商品即时数据
+//http://103.25.42.173:805/ExchangeSymbol.aspx?symbolCode=USD&exchCode=mt4
+//某个交易所所有商品即时数据
+//http://103.25.42.173:805/ExchangeSymbol.aspx?exchCode=mt4
+//某个商品历史数据
+//http://103.25.42.173:805/History.aspx?symbolCode=USD&top=100&type=min1
+
+
+//用户相关接口
+////用户信息调用接口
+#define userInfoCalled @"http://www.cntjjy.com/p/userDataAppInterface.php"//接口已改
+//用户登录密码验证接口
+#define userLoginPassWordCheck @"http://www.cntjjy.com/p/userDataAppInterface.php"//接口已改
+////用户登录状态查询接口
+#define userLoginStateQuery @"http://www.cntjjy.com/p/userDataAppInterface.php"//已改
+////用户站内信接口
+#define userLetterStation @"http://www.cntjjy.com/clientCenter/?m=Ucenter&c=Pubmess&a=index"//  
+////用户浏览器自动登录接口//由于登录改成原生态的,这个接口应该取消了吧?
+#define userBrowserAutoLogin @"http://www.cntjjy.com/index.php?m=member&c=account&a=app_login"
+//行情预警接口
+#define quotationWarning @"http://www.cntjjy.com/p/appDataInterface.php"
+
+//画线相关
+#define YWIDTH 1.0f//影线宽度,同时也是K线边框的宽度
+#define SPACE 1.0f//每个柱状体之间的间隔
+#define TopEdge 10.0f
+#define BottomEdge 10.0f
+#define LeftEdge 10.0f
+#define RightEdge 10.0f
+
+//全局引用类
+#import "UIButton+ItemButton.h"
+#import "MBProgressHUD.h"
+#import "UIColor+AddColor.h"
+#import "DataManage.h"
+#import "ShowToast.h"
+#import "CipherManage.h"
+
+
+

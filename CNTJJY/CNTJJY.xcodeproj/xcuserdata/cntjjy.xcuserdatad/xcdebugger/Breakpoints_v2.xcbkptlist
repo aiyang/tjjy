@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CNTJJY/DataManage/DataManage.m"
+            timestampString = "482221727.336395"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "+someSymbolsInstantDataWithInterface:count:codes:success:failure:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[DataManage someSymbolsInstantDataWithInterface:count:codes:success:failure:]"
+                  moduleName = "CNTJJY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntjjy/Desktop/iOS%20App%E6%96%87%E6%A1%A3%E5%8F%8A%E6%BA%90%E7%A0%81-3/%E5%A4%A9%E9%87%91%E5%8A%A0%E9%93%B6iOS%20APP%E6%BA%90%E7%A0%81/CNTJJY/CNTJJY/DataManage/DataManage.m"
+                  timestampString = "482221727.338153"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "329">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__78+[DataManage someSymbolsInstantDataWithInterface:count:codes:success:failure:]_block_invoke"
+                  moduleName = "CNTJJY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntjjy/Desktop/iOS%20App%E6%96%87%E6%A1%A3%E5%8F%8A%E6%BA%90%E7%A0%81-3/%E5%A4%A9%E9%87%91%E5%8A%A0%E9%93%B6iOS%20APP%E6%BA%90%E7%A0%81/CNTJJY/CNTJJY/DataManage/DataManage.m"
+                  timestampString = "482221727.338322"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CNTJJY/DataManage/DataManage.m"
+            timestampString = "482231265.932474"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "+requestDataByTag:interface:exCode:syCodes:success:failure:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CNTJJY/DataManage/DataManage.m"
+            timestampString = "482231297.117617"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "+requestDataByTag:interface:exCode:syCodes:success:failure:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[DataManage requestDataByTag:interface:exCode:syCodes:success:failure:]"
+                  moduleName = "CNTJJY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntjjy/Desktop/iOS%20App%E6%96%87%E6%A1%A3%E5%8F%8A%E6%BA%90%E7%A0%81-3/%E5%A4%A9%E9%87%91%E5%8A%A0%E9%93%B6iOS%20APP%E6%BA%90%E7%A0%81/CNTJJY/CNTJJY/DataManage/DataManage.m"
+                  timestampString = "482231439.762244"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "455">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__72+[DataManage requestDataByTag:interface:exCode:syCodes:success:failure:]_block_invoke"
+                  moduleName = "CNTJJY"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cntjjy/Desktop/iOS%20App%E6%96%87%E6%A1%A3%E5%8F%8A%E6%BA%90%E7%A0%81-3/%E5%A4%A9%E9%87%91%E5%8A%A0%E9%93%B6iOS%20APP%E6%BA%90%E7%A0%81/CNTJJY/CNTJJY/DataManage/DataManage.m"
+                  timestampString = "482231439.762697"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "79">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CNTJJY/Quotation/Controller/OptionalViewController.m"
+            timestampString = "482233438.530312"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "-requestDataWithTag:interface:exCode:syCodes:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CNTJJY/Quotation/Controller/OptionalViewController.m"
+            timestampString = "482233438.530312"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "-requestDataWithTag:interface:exCode:syCodes:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

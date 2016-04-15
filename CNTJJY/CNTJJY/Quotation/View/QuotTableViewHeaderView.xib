@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuotTableViewHeaderView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="76"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="买价" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IB3-bF-ANx">
+                    <rect key="frame" x="138" y="0.0" width="60" height="76"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="卖价" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeJ-fW-ZhX">
+                    <rect key="frame" x="198" y="0.0" width="59" height="76"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="涨跌" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecS-C0-h2H">
+                    <rect key="frame" x="257" y="0.0" width="59" height="76"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="涨跌幅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BD8-CL-3be">
+                    <rect key="frame" x="324" y="0.0" width="45" height="76"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="品种" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ylu-tA-YcU">
+                    <rect key="frame" x="21" y="0.0" width="107" height="76"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ecS-C0-h2H" secondAttribute="bottom" id="0MD-zg-AaY"/>
+                <constraint firstItem="ecS-C0-h2H" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2cj-vE-mb3"/>
+                <constraint firstAttribute="bottom" secondItem="PeJ-fW-ZhX" secondAttribute="bottom" id="2fz-Rb-4hj"/>
+                <constraint firstAttribute="trailing" secondItem="BD8-CL-3be" secondAttribute="trailing" constant="10" id="3iI-Mk-2fj"/>
+                <constraint firstItem="Ylu-tA-YcU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="6P8-de-Aco"/>
+                <constraint firstItem="PeJ-fW-ZhX" firstAttribute="leading" secondItem="IB3-bF-ANx" secondAttribute="trailing" id="8gd-sL-HR5"/>
+                <constraint firstItem="PeJ-fW-ZhX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9Mv-mc-EFc"/>
+                <constraint firstItem="IB3-bF-ANx" firstAttribute="leading" secondItem="Ylu-tA-YcU" secondAttribute="trailing" id="DZD-nN-9tY"/>
+                <constraint firstItem="Ylu-tA-YcU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Fj1-Qq-8yG"/>
+                <constraint firstItem="ecS-C0-h2H" firstAttribute="width" secondItem="IB3-bF-ANx" secondAttribute="width" id="HcJ-uk-RZC"/>
+                <constraint firstAttribute="bottom" secondItem="Ylu-tA-YcU" secondAttribute="bottom" id="L6n-1d-Mlc"/>
+                <constraint firstItem="ecS-C0-h2H" firstAttribute="leading" secondItem="PeJ-fW-ZhX" secondAttribute="trailing" id="Rzg-Cf-3vS"/>
+                <constraint firstItem="BD8-CL-3be" firstAttribute="leading" secondItem="ecS-C0-h2H" secondAttribute="trailing" id="TBi-fg-it1"/>
+                <constraint firstItem="BD8-CL-3be" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TUE-Sf-TFI"/>
+                <constraint firstItem="IB3-bF-ANx" firstAttribute="width" secondItem="Ylu-tA-YcU" secondAttribute="width" multiplier="1:2" id="Tru-TH-LMQ"/>
+                <constraint firstItem="IB3-bF-ANx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Wyv-hz-YFG"/>
+                <constraint firstItem="BD8-CL-3be" firstAttribute="width" secondItem="IB3-bF-ANx" secondAttribute="width" id="Yi6-uF-cma"/>
+                <constraint firstItem="PeJ-fW-ZhX" firstAttribute="width" secondItem="IB3-bF-ANx" secondAttribute="width" id="cBt-CG-1oT"/>
+                <constraint firstAttribute="bottom" secondItem="IB3-bF-ANx" secondAttribute="bottom" id="kp2-KJ-d2U"/>
+                <constraint firstAttribute="bottom" secondItem="BD8-CL-3be" secondAttribute="bottom" id="xop-rt-lic"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="497.5" y="9"/>
+        </view>
+    </objects>
+</document>

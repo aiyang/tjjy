@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="292" id="KGk-i7-Jjw" customClass="WarningTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="292"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="291"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l41-oM-FDW">
+                        <rect key="frame" x="355" y="130" width="51" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="49" id="Sx9-ai-NVa"/>
+                            <constraint firstAttribute="height" constant="31" id="zJH-uq-9ai"/>
+                        </constraints>
+                        <connections>
+                            <action selector="theSwitchAction:" destination="KGk-i7-Jjw" eventType="valueChanged" id="MVG-Om-oNv"/>
+                        </connections>
+                    </switch>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="修改时间:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGE-xF-s12">
+                        <rect key="frame" x="10" y="193" width="55" height="88"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="dM4-A9-Nmy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yPw-tA-9jN">
+                        <rect key="frame" x="70" y="193" width="285" height="88"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xz-ie-TAQ">
+                        <rect key="frame" x="0.0" y="0.0" width="419" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Of1-9s-R8a"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLG-36-UN1">
+                        <rect key="frame" x="10" y="11" width="345" height="177"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="BGE-xF-s12" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="1O4-dQ-vQH"/>
+                    <constraint firstItem="BGE-xF-s12" firstAttribute="height" secondItem="PLG-36-UN1" secondAttribute="height" multiplier="1:2" id="1uW-63-Vjq"/>
+                    <constraint firstItem="0Xz-ie-TAQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2xE-Cl-93U"/>
+                    <constraint firstItem="0Xz-ie-TAQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6FP-fP-VCC"/>
+                    <constraint firstItem="BGE-xF-s12" firstAttribute="top" secondItem="PLG-36-UN1" secondAttribute="bottom" constant="5" id="AeR-Bs-qWi"/>
+                    <constraint firstItem="l41-oM-FDW" firstAttribute="leading" secondItem="PLG-36-UN1" secondAttribute="trailing" id="Bcg-dA-CLp"/>
+                    <constraint firstItem="PLG-36-UN1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="OMa-jO-wfR"/>
+                    <constraint firstItem="yPw-tA-9jN" firstAttribute="leading" secondItem="BGE-xF-s12" secondAttribute="trailing" constant="5" id="TH2-rP-bCy"/>
+                    <constraint firstItem="l41-oM-FDW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Zeu-ke-JYe"/>
+                    <constraint firstItem="l41-oM-FDW" firstAttribute="leading" secondItem="yPw-tA-9jN" secondAttribute="trailing" id="a5I-0W-Kww"/>
+                    <constraint firstAttribute="bottom" secondItem="BGE-xF-s12" secondAttribute="bottom" constant="10" id="f8g-RL-Fy0"/>
+                    <constraint firstItem="yPw-tA-9jN" firstAttribute="top" secondItem="PLG-36-UN1" secondAttribute="bottom" constant="5" id="kas-6Q-X87"/>
+                    <constraint firstAttribute="trailing" secondItem="0Xz-ie-TAQ" secondAttribute="trailing" id="lnR-uS-hXt"/>
+                    <constraint firstAttribute="bottom" secondItem="yPw-tA-9jN" secondAttribute="bottom" constant="10" id="lwJ-61-G18"/>
+                    <constraint firstItem="PLG-36-UN1" firstAttribute="top" secondItem="0Xz-ie-TAQ" secondAttribute="bottom" constant="10" id="pGY-EU-yZz"/>
+                    <constraint firstAttribute="trailing" secondItem="l41-oM-FDW" secondAttribute="trailing" constant="15" id="wr3-dK-1GQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="modifyTimeLB" destination="yPw-tA-9jN" id="Vrg-JN-gPs"/>
+                <outlet property="theSwitch" destination="l41-oM-FDW" id="niH-WX-8o8"/>
+                <outlet property="wLevelLB" destination="PLG-36-UN1" id="Sfg-Rr-Krt"/>
+            </connections>
+            <point key="canvasLocation" x="223.5" y="336"/>
+        </tableViewCell>
+    </objects>
+</document>
